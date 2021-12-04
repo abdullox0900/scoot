@@ -69,9 +69,6 @@
         background-image: url("../../img/playmarket-icon.svg");
     }
 
-    .footer__link-box {
-    }
-
     .footer__link-desc {
         margin: 0;
         font-weight: bold;
@@ -164,6 +161,69 @@
 
         .footer__link-right:active {
             opacity: 0.6;
+        }
+    }
+}
+
+// FOOTER RESPONSIV
+// TABLET
+
+@media only screen and (max-width: 815px) {
+    .footer {
+        .footer__top-container {
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .footer__header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        .footer__top {
+            padding: 62px 0px 103px 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer {
+        .footer__top {
+            padding: 88px 0px 102px 0px;
+        }
+
+        .footer__header {
+            max-width: 311px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .footer {
+        .footer__top {
+            padding: 88px 0px 102px 0px;
+        }
+
+        .footer__header {
+            max-width: 311px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        .footer__wrap-left {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__link-left {
+            margin-left: 0px;
+            margin-bottom: 30px;
         }
     }
 }
