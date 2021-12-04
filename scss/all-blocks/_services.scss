@@ -3,6 +3,11 @@
     padding-top: 160px;
     padding-bottom: 200px;
 
+    .services-container {
+        display: flex;
+        justify-content: center;
+    }
+
     .services__list {
         display: flex;
         position: relative;
