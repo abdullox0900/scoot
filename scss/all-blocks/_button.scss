@@ -1,0 +1,23 @@
+.button {
+    padding: 14px 39px;
+    border: none;
+    background-color: $yellow;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.button:hover {
+    color: $yellow;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 3px $yellow;
+}
+
+.button:active {
+    opacity: 0.6;
+    color: #ffffff;
+    background-color: $yellow;
+}
