@@ -101,8 +101,7 @@
 
 @media only screen and (max-width: 768px) {
     .offer {
-        margin-bottom: 107px;
-
+        padding-bottom: 104px;
         .offer__item {
             margin-bottom: 128px;
         }
@@ -111,7 +110,7 @@
 
 @media only screen and (max-width: 500px) {
     .offer {
-        margin-bottom: 120px;
+        padding-bottom: 120px;
 
         .offer__img-right {
             width: 311px;
@@ -152,6 +151,7 @@
 
 @media only screen and (max-width: 320px) {
     .offer {
+        padding-bottom: 120px;
         .offer__item {
             margin-bottom: 90px;
         }
